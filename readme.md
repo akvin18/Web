@@ -11,4 +11,4 @@
 4) პასუხების შემოწმება და ქულის დათვლა
 
  ## HOSTING
- - [ ] https://nikoade.github.io/web-project-musicHUB/index.html
+ - [ ] https://akvin18.github.io/Web/
