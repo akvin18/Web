@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quizy</title>
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class=header>
+        <div class = item>
+            <h1>Craft a perfect Quizy for yourself</h1>
+        </div>
+    </div>
+    <div class="wrap">
+    <div class="main">
+        <label for="QuestionsQuantity"><h1>Number of Questions: </h1></label>
+        <input type="number" id="QuestionsQuantity" placeholder="enter quantity" class="questions-quantity" min = "10" max = "50">
+        <label for="Category"><h1>Choose Category</h1></label>
+        <select required class="selects" id="Category">
+            <option value="" disabled selected>Choose Category</option>
+        </select>
+        <label for="SelectDifficulty"><h1>Choose Difficulty</h1></label>
+        <select required class="selects" id="SelectDifficulty">
+            <option value="" id="any" disabled selected>Choose Difficulty</option>
+            <option id="easy">Easy</option>
+            <option id= "medium">Medium</option>
+            <option id= "hard">Hard</option>
+        </select>
+        <button class="start-button" onclick="getQuestions()">start</button>
+    </div>
+</div>
+<user-card class="game"></user-card>
+<div class="footer">
+    <div class="inner-footer">
+  
+      <div class="footer-items">
+        <h3>Adjustable amount of questions</h3>
+        <div class="border1"></div> 
+          <ul>
+            <a href="#"><li>Select up to 50 questions💡</li></a>
+          </ul>
+      </div>
+  
+  
+      <div class="footer-items">
+        <h3>Desired Category</h3>
+        <div class="border1"></div> 
+          <ul>
+            <a href="#"><li>We've got endless varieties🤓</li></a>
+          </ul>
+      </div>
+  
+      <div class="footer-items">
+        <h3>Prefered Difficulty</h3>
+        <div class="border1"></div>  
+          <ul>
+            <a href="#"><li>Up for a challenge?💪</li></a>
+          </ul>
+      </div>
+</div>      
+</body>
+<script src="javascript/index.js"></script>
+<script src="javascript/hello.js"></script>
+</html>
